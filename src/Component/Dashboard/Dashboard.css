@@ -1,0 +1,26 @@
+.dashboardCont{
+    display: flex;
+    align-items: flex-start;
+    gap: 20px;
+    flex-wrap: wrap;
+    /* background: lavender; */
+    padding: 5px 15px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+.dashboardCardCont{
+    display: flex;
+    justify-content: center;
+    align-content: center;
+    flex-direction: column;
+    gap: 7px;
+    width : 300px;
+    margin-top: 25px;
+}
+
+@media(max-width: 320px){
+    .dashboardCont{
+        padding: 5px 0px;
+    }
+}
