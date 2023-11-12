@@ -67,7 +67,7 @@ const handleGroupValue = (e, valueBoolen) => {
            <div id='navOpt-cont' className="navOpt-cont"
            style={ {display: isDisplayed ? 'block' : 'none'}}
            >
-             <p style={{margin:"10px 0px"}}>Grouping
+             <p style={{margin:"15px 0px"}}>Grouping
              <select className="option" value={groupValue} onChange={(e) => handleGroupValue(e, true)}>
                 <option value="status">
                  Status

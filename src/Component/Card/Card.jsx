@@ -39,7 +39,7 @@ export default function Card({
                     <img src={alert} alt="" className='feature-image'/>
                 </div>
                 <div className='text-cont'>
-                    <p style={{fontSize:"15px"}}><span>.</span>{tag}</p>
+                    <p style={{fontSize:"15px"}}><span className='featureDot'></span>{tag}</p>
                 </div>
             </div>
         </div>
