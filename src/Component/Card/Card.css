@@ -21,7 +21,8 @@ width: 100%;
     justify-content: space-between;
     align-items: center;
     height: 50px;
-    padding-top: 5px;
+    /* padding-top: 5px; */
+    /* padding-left: 8px; */
    
 }
 
@@ -43,6 +44,8 @@ width: 100%;
 .second-cont{
     font-size: 18px;
     font-weight: bold;
+    margin-left: 8px;
+    color: rgb(82, 82, 82);
     
 }
 .user-image{
@@ -61,8 +64,8 @@ width: 100%;
     width: 25px;
     padding-left: 5px;
     padding-top: 5px;
-    border: 1px solid rgb(187, 186, 186);
-    margin-left: 8px;
+    border: 1px solid rgb(241, 240, 240);
+    margin-left: 3px;
     margin-right: 4px ;
     margin-bottom: 5px;
     border-radius: 10px;
@@ -83,7 +86,7 @@ width: 100%;
 }
 .text-cont{
     position: relative;
-    border: 1px solid rgb(187, 186, 186);
+    border: 1px solid rgb(241, 240, 240);
     border-radius: 10px;
     padding: 4px 10px 1.5px 20px;
     margin-bottom: 5px;

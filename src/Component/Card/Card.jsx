@@ -13,7 +13,7 @@ export default function Card({
      return(
         <div className="card-cont">
             <div className="first-cont">
-                <span className="u-id" style={{textTransform: "uppercase"}}>
+                <span className="u-id" style={{textTransform: "uppercase", marginLeft: "8px"}}>
                     {Id}
                 </span>
                 <div className='imageContainer'>
